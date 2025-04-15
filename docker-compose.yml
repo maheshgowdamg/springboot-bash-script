@@ -29,8 +29,7 @@ services:
       - my-network
     volumes:
        -  C://bash/data:/var/lib/postgresql/data
-volumes:
-  pgdata: {}
+
 
 networks:
    my-network:
